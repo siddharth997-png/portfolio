@@ -34,6 +34,18 @@
     justify-content: space-around;
     max-width: 600px;
     font-size: $font-size-md;
+
+    .navbar__item{
+      padding: 4px 7px;
+      border-radius: 10px;
+      transition: all 0.2s ease;
+      &:hover{
+        transform: scale(1.05);
+        cursor: pointer;
+        background: $lightBgColor;
+        color: $darkBgColor;
+      }
+    }
     @media screen and (max-width: 768px) {
       transition: all 0.2s ease;
       display: none;
