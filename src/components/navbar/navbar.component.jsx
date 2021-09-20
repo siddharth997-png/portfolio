@@ -7,8 +7,8 @@ const Navbar = ({isOpen, toggleIsOpen}) => {
         {"<Siddharth Kothari/>"}
       </div>
       <div className='navbar__menu'>
-        <div className='navbar__item' to='home'>Home</div>
-        <div className='navbar__item' to='about'>About</div>
+        <div className='navbar__item' to='#home'>Home</div>
+        <div className='navbar__item' to='#about'>About</div>
         <div className='navbar__item' to='projects'>Projects</div>
         <div className='navbar__item' to='contact'>Contact Me</div>
       </div>

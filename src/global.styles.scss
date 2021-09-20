@@ -18,9 +18,11 @@ $navbarSize: 70px;
 $remHeight: calc(100vh - 70px);
 
 //font-sizing
+$font-size-ex-lg: 40px;
 $font-size-lg: 28px;
-$font-size-md: 20px;
-$font-size-sm: 14px;
+$font-size-md: 24px;
+$font-size-sm: 17px;
+$font-size-ex-sm: 10px;
 
 
 //unselectable text
@@ -43,5 +45,9 @@ $font-size-sm: 14px;
 body{
   color: $primaryTextColor;
   overflow-x: hidden;
+}
+
+.highlightedText{
+  color: $lightBgColor;
 }
 

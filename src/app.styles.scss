@@ -1,12 +1,13 @@
 @import './global.styles.scss';
 
 .app{
-  height: 100vh;
   
   .sections{
-    width: 100%;
-    background-color: rgb(4, 85, 85);
     position: relative;
+    width: 100%;
+    //background-color: rgb(4, 85, 85);
+    background-color: $darkBgColor;
     top: $navbarSize;
+    height: auto;
   }
 }
