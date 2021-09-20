@@ -1,5 +1,5 @@
-import Roll from 'react-reveal/Roll';
 import Fade from 'react-reveal/Fade';
+import Social from '../../components/social-icons/social.component';
 
 import './home.styles.scss';
 
@@ -20,31 +20,7 @@ const Home = () => {
           <a href='assets/Siddharth_Kothari_Viit.pdf' target='_blank' className='resume'>My Resume!</a>
         </div>
       </Fade>
-      
-        <div className='home__social-icon-wrapper'>
-          <Roll right>
-            <a href='mailto:siddharthkothari655@gmail.com'>  
-              <img src='assets/social/mail.svg' alt=''/>
-            </a>
-          </Roll>
-          <Roll right>
-          <a href='https://www.linkedin.com/in/1-siddharth-kothari/'>  
-            <img src='assets/social/linkedin.svg' alt=''/>
-          </a>
-          </Roll>
-          <Roll right>
-          <a href='https://github.com/siddharth997-png'>  
-            <img src='assets/social/github.svg' alt=''/>
-          </a>
-          </Roll>
-          <Roll right>
-          <a href='https://instagram.com/siddharth_997'>  
-            <img src='assets/social/instagram.svg' alt=''/>
-          </a>
-          </Roll>
-
-        </div>
-      
+      <Social/>
     </div>
   )
 }
