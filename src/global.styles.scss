@@ -1,9 +1,11 @@
 //fonts
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,200;1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
 
 $Poppins: 'Poppins', sans-serif;
 $highlighted: 'Source Code Pro', monospace;
+
 
 
 //colors
@@ -21,6 +23,7 @@ $remHeight: calc(100vh - 70px);
 $font-size-ex-lg: 40px;
 $font-size-lg: 28px;
 $font-size-md: 24px;
+$font-size-md-sm: 20px;
 $font-size-sm: 17px;
 $font-size-ex-sm: 10px;
 

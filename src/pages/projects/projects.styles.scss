@@ -1,8 +1,8 @@
 @import '../../global.styles.scss';
 
 .projects{
-  height: $remHeight;
-  
+  //height: $remHeight;
+  height: auto;
   width: 85%;
   margin: 0 auto;
   display: flex;
@@ -19,7 +19,15 @@
   .projects__heading{
     font-family: $highlighted;
     color: $lightBgColor;
-    margin: 15px 0px;
+    margin: 10px 0px;
   }
 
+  .projects__container{
+    width: 100%;
+    //background-color: rgb(3, 54, 99);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
 }
