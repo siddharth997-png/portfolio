@@ -28,7 +28,7 @@ const ProblemSolving = () => {
       </Fade>
       <Fade left>
       <span className='ps__content'>
-        I have also completed <span className='highlightedText'>DSA Self Paced Course</span>from GFG. Here's my <a href='assets/dsa.pdf' target='_blank'>Certificate</a>.
+        I have also completed <span className='highlightedText'>DSA Self Paced Course</span> from GFG. Here's my <a href='assets/dsa.pdf' target='_blank'>Certificate</a>.
       </span>
       </Fade>
       <Fade right>

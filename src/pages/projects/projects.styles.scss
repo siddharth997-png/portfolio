@@ -1,0 +1,25 @@
+@import '../../global.styles.scss';
+
+.projects{
+  height: $remHeight;
+  
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  @media screen and (max-width: 768px) {
+    height: auto;
+    padding: 0 10px;
+    width: 100%;
+  }
+  
+
+  .projects__heading{
+    font-family: $highlighted;
+    color: $lightBgColor;
+    margin: 15px 0px;
+  }
+
+}
