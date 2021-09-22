@@ -1,5 +1,4 @@
 import { useState,useEffect } from 'react';
-import Zoom from 'react-reveal/Zoom';
 
 import ProjectMenu from '../../components/project-menu/project-menu.component';
 import ProjectCard from '../../components/project-card/project-card.component';
@@ -49,7 +48,6 @@ const Projects = () => {
     <div className='projects' id='projects'>
       <h1 className='projects__heading'>My Projects</h1>
       <ProjectMenu selected={selected} setSelected={setSelected}/>
-        <Zoom>
           <div className='projects__container' id='projects__container'>
             {
                 data.map((item,index) => (
@@ -61,7 +59,6 @@ const Projects = () => {
               ))
             }
           </div>
-        </Zoom>
         {
           (viewProject ? 
               <ProjectInfo 

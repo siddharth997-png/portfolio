@@ -3,6 +3,7 @@
 
 
 .home{
+  padding: 30px;
   position: relative;
   height: $remHeight;
   width: 80%;
@@ -15,9 +16,9 @@
 
   overflow-x: hidden;
 
-  @media screen and (max-width: 1150px) {
+  @media screen and (max-width: 768px) {
     width: 100%;
-    padding: 0 20px;
+    padding: 0 40px;
     flex-direction: column;
   }
 
@@ -29,25 +30,37 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    @media screen and (max-width: 1150px) {
+    @media screen and (max-width: 768px) {
       height: 50%;
       flex: 0.3;
       border-right: none;
     }
     img{
       width: 80%;
-      @media screen and (max-width: 1150px) {
+      @media screen and (max-width: 768px) {
         width: 50%;
       }
     }
   } 
 
   .home__content-wrapper{
+    margin-left: 30px;
+    position: relative;
     flex: 0.5;
     justify-self: flex-start;
     //background: red;
     max-width: 450px;
-    @media screen and (max-width: 1150px) {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    >*{
+      margin: 10px 0;
+    }
+
+    @media screen and (max-width: 768px) {
+      margin-left: 0px;
       width: 85%;
       align-self: flex-start;
       flex: 0.7;
@@ -55,7 +68,7 @@
     
     .content-main{
       font-size: $font-size-lg;
-      @media screen and (max-width: 1150px) {
+      @media screen and (max-width: 768px) {
         font-size: $font-size-md;
         padding: 2px;
       }
@@ -63,7 +76,7 @@
         font-weight: 400;
         font-size: 40px;
         color: $lightBgColor;
-        @media screen and (max-width: 1150px) {
+        @media screen and (max-width: 768px) {
           padding: 0px;
           font-size: 30px;
         }
@@ -71,12 +84,12 @@
     }
     .content{
       font-size: $font-size-md;
-      margin: 30px 0px;
-      margin-top: 20px;
+      //margin: 30px 0px;
+      //margin-top: 20px;
       .content-highlighted{
         color: $lightBgColor;
       }
-      @media screen and (max-width: 1150px) {
+      @media screen and (max-width: 768px) {
         position: relative;
         margin-top: 0px;
         font-size: 1.3rem;
@@ -88,7 +101,7 @@
     }
 
     .resume{
-      margin-top: 30px;
+      //margin-top: 30px;
       text-decoration: none;
       color: $lightBgColor;
       padding: 10px 5px;
@@ -106,6 +119,24 @@
         color: $darkBgColor;
         transform: scale(1.1);
       }
+    }
+
+    .down-arrow{
+      width: 100%;
+      //margin-top: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      img{
+        width: 30px;
+        animation: blink 2s linear infinite;
+      }
+      @keyframes blink{
+        0%{opacity: 0;}
+        50%{opacity: .5;}
+        100%{opacity: 1;}
+        }
     }
   }
 }

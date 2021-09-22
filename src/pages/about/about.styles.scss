@@ -24,6 +24,11 @@
     width: 100%;
     flex-direction: column;
   }
+  @media screen and (max-width: 400px) {
+    padding: 30px;
+  }
+
+
 
   .about__content-container{
     flex: 0.5;
@@ -99,20 +104,22 @@
       height: 150px;
       width: 120px;
       .backend-skill-name{
-        margin-bottom: 20px;
+        margin-bottom: 10px;
         @media screen and (max-width: 900px) {
-          font-size: $font-size-ex-sm;
+          font-size: $font-size-sm;
         }
         @media screen and (max-width: 400px) {
-          font-size: $font-size-ex-sm;
+          font-size: $font-size-sm;
         }
       }
       img{
         width: 70px;
         @media screen and (max-width: 900px) {
-          width: 30px;
+          width: 50px;
         }
-        
+        @media screen and (max-width: 900px) {
+          width: 40px;
+        }
       }
       
       @media screen and (max-width: 900px) {
@@ -145,11 +152,9 @@
         height: 90px;
       }
       @media screen and (max-width: 400px) {
-        width: 50px;
-        height: 70px;
-        .skill-name{
-          font-size: $font-size-ex-sm;
-        }
+        width: 70px;
+        height: 80px;
+        margin: 5px;
       }
 
     }

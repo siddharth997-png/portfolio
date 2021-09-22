@@ -1,5 +1,6 @@
 import Fade from 'react-reveal/Fade';
 import Social from '../../components/social-icons/social.component';
+import { Link as LinkS } from 'react-scroll';
 
 import './home.styles.scss';
 
@@ -21,6 +22,17 @@ const Home = () => {
           target='_blank' 
           rel="noopener noreferrer"
           className='resume'>My Resume!</a>
+          <div className='down-arrow'>
+            <LinkS
+            to='about'
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={400}
+            >
+              <img src={process.env.PUBLIC_URL+'/assets/down.svg'} alt=''/>
+            </LinkS>
+          </div>
         </div>
       </Fade>
       <Social/>

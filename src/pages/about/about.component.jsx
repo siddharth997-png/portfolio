@@ -88,7 +88,7 @@ const About = () => {
         </Roll>
         <Roll>
           <div className='backend-skill-container'>
-            <span className='backend-skill-name'>Mongo DB</span>
+            <span className='backend-skill-name'>MongoDB</span>
             <img src={process.env.PUBLIC_URL + '/assets/back-end/mongodb.svg'} alt=''/>
           </div>
         </Roll>
