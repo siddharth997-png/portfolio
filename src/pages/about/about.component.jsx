@@ -8,7 +8,7 @@ const About = () => {
   return (
   <div id='about'>
     <div className='about'>
-      <Fade left>
+      <Fade right>
         <div className='about__content-container'>
           <span className='about__content-subheading'>What Do I Do?</span>
           <h1 className='about__content-heading'>Front End Development</h1>
@@ -49,7 +49,7 @@ const About = () => {
       </div>
     </div>
     <div className='about'>
-      <Fade right>
+      <Fade left>
         <div className='about__content-container'>
           <h1 className='about__content-heading'>Back End Development and Database Management</h1>
           <span className='about__content-desc'>I'm currently using <span className='highlightedText'>NodeJs</span> combined with <span className='highlightedText'>MongoDB</span> to build highly extensible complex backends. I have worked with each of these technologies extensively.</span>

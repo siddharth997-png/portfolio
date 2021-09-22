@@ -22,9 +22,9 @@
 
   .project-info__hamburger-line{
     position: absolute;
-    height: 10px;
+    height: 6px;
     width: 100%;
-    border-radius: 5px;
+    //border-radius: 3px;
     background-color: $lightBgColor;
     &:first-child{
       transform: rotate(45deg);

@@ -23,5 +23,4 @@ export const nodeProjects = [
 export const phpProjects = [
   aakarProject,
   msaProject
-
 ]

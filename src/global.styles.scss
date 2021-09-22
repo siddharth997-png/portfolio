@@ -48,6 +48,7 @@ $font-size-ex-sm: 10px;
 body{
   color: $primaryTextColor;
   overflow-x: hidden;
+  cursor: default;
 }
 
 .highlightedText{
