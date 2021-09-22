@@ -8,7 +8,7 @@ const Home = () => {
     <div className='home' id='home'>
       <Fade left>
         <div className='home__img-container'>
-          <img src='assets/avatar.svg' alt=''/>
+          <img src={process.env.PUBLIC_URL + '/assets/avatar.svg'} alt=''/>
         </div>
       </Fade>
       <Fade right>
@@ -17,7 +17,10 @@ const Home = () => {
           <p className='content-main'>I'm <span className='content-name'>Siddharth</span>.</p>
           <p className='content'>I'm an Aspiring Software Developer based in Mumbai, India.<br/> I love building <span className='content-highlighted'>websites</span> and solving <span className='content-highlighted'>algorithmic problems</span>.</p>
 
-          <a href='assets/Siddharth_Kothari_Viit.pdf' target='_blank' className='resume'>My Resume!</a>
+          <a href={process.env.PUBLIC_URL + '/assets/Siddharth_Kothari_Viit.pdf'} 
+          target='_blank' 
+          rel="noopener noreferrer"
+          className='resume'>My Resume!</a>
         </div>
       </Fade>
       <Social/>

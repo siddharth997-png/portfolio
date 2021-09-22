@@ -28,8 +28,10 @@ const ProjectInfo = ({project,toggleViewProject}) => {
           </div>
           <div className='links'>
           {
-                links.map(({src, title, id},index) => (
-                <a key={index} href={src} target='_blank'  rel="noopener noreferrer" >{title}</a>
+                links.map(({src, title, publicAsset},index) => (
+                <a key={index} 
+                href={`${publicAsset ? process.env.PUBLIC_URL+src : src}`} 
+                target='_blank'  rel="noopener noreferrer" >{title}</a>
               ))
             }
           </div>
@@ -45,7 +47,7 @@ const ProjectInfo = ({project,toggleViewProject}) => {
               }
             </div>
           </div>
-          <img src={imgSrc} alt=''/> 
+          <img src={process.env.PUBLIC_URL+imgSrc} alt=''/> 
         </div>
       </div>
     </div>

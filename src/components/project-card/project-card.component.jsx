@@ -10,7 +10,7 @@ const ProjectCard = ({item,toggleViewProject,setProject}) => {
   return (
     <div className='project-card__container'>
       <div className='project-card__img-container'>
-        <img src={imgSrc} alt=''/>
+        <img src={process.env.PUBLIC_URL + imgSrc} alt=''/>
       </div>
       <div className='project-card__name'>{projectTitle}</div>
       <span className='project-card__employer'>{employer}</span>

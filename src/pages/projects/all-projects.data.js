@@ -1,6 +1,6 @@
 export const aakarProject = {
   id: 1,
-  imgSrc: 'assets/booking.svg',
+  imgSrc: '/assets/booking.svg',
   projectTitle: 'Employee Leave Pass and Visitor Booking',
   employer: 'Aakar Foundry Pvt Ltd',
   desc: 'This web application brings entire visitor appointment booking, authentication and employee leave pass generation for over 400+ employees online.', 
@@ -20,7 +20,7 @@ export const aakarProject = {
 
 export const crwnClothing = {
   id: 2,
-  imgSrc: 'assets/shopping.svg',
+  imgSrc: '/assets/shopping.svg',
   projectTitle: 'E Commerce Application',
   employer: 'Personal',
   desc: 'A fully fledged E-Commerce website with Sign In and Goggle O-Authentication feature.',
@@ -45,7 +45,7 @@ export const crwnClothing = {
 
 export const msaProject = {
   id: 3,
-  imgSrc: 'assets/data-reports.svg',
+  imgSrc: '/assets/data-reports.svg',
   projectTitle: 'Measurement System Analysis',
   employer: 'Fluid Control Pvt Ltd',
   desc: 'This web application helps identify, catalog, calibrate and study the measurement certainty of inspection, testing, and lab equipment.',
@@ -58,7 +58,8 @@ export const msaProject = {
     {
       id:2,
       title: 'Internship Letter',
-      src: 'assets/MSA_Internship_Letter.pdf'
+      src: '/assets/MSA_Internship_Letter.pdf',
+      publicAsset: true
     },
     {
       id: 2,
@@ -75,7 +76,7 @@ export const msaProject = {
 
 export const chapApp = {
   id: 1,
-  imgSrc: 'assets/chat.svg',
+  imgSrc: '/assets/chat.svg',
   projectTitle: 'Real Time Chat Application',
   employer: 'Personal',
   desc: 'This web application supports real-time bi-directional communication, which makes it a great fit for a chat app.',

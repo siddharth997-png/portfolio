@@ -19,31 +19,31 @@ const About = () => {
         <Roll>
           <div className='skill-container'>
             <span className='skill-name'>HTML</span>
-            <img src='assets/front-end/html.svg' alt=''/>
+            <img src={process.env.PUBLIC_URL + '/assets/front-end/html.svg'} alt=''/>
           </div>
         </Roll>
         <Roll>
           <div className='skill-container'>
             <span className='skill-name'>CSS</span>
-            <img src='assets/front-end/css.svg' alt=''/>
+            <img src={process.env.PUBLIC_URL + '/assets/front-end/css.svg'} alt=''/>
           </div>
         </Roll>
         <Roll>
           <div className='skill-container'>
             <span className='skill-name'>JavaScript</span>
-            <img className='js' src='assets/front-end/javascript.svg' alt=''/>
+            <img className='js' src={process.env.PUBLIC_URL + '/assets/front-end/javascript.svg'} alt=''/>
           </div>
         </Roll>
         <Roll>
           <div className='skill-container'>
             <span className='skill-name'>Sass</span>
-            <img src='assets/front-end/sass.svg' alt=''/>
+            <img src={process.env.PUBLIC_URL + '/assets/front-end/sass.svg'} alt=''/>
           </div>
         </Roll>
         <Roll>
           <div className='skill-container'>
             <span className='skill-name'>React</span>
-            <img src='assets/front-end/react.svg' alt=''/>
+            <img src={process.env.PUBLIC_URL + '/assets/front-end/react.svg'} alt=''/>
           </div>
         </Roll>
       </div>
@@ -59,37 +59,37 @@ const About = () => {
         <Roll>
           <div className='backend-skill-container'>
             <span className='backend-skill-name'>PHP</span>
-            <img src='assets/back-end/php.svg' alt=''/>
+            <img src={process.env.PUBLIC_URL + '/assets/back-end/php.svg'} alt=''/>
           </div>
         </Roll>
         <Roll>
           <div className='backend-skill-container'>
             <span className='backend-skill-name'>Node</span>
-            <img src='assets/back-end/node.svg' alt=''/>
+            <img src={process.env.PUBLIC_URL + '/assets/back-end/node.svg'} alt=''/>
           </div>
         </Roll>
         <Roll>
           <div className='backend-skill-container'>
             <span className='backend-skill-name'>C++</span>
-            <img src='assets/back-end/c++.svg' alt=''/>
+            <img src={process.env.PUBLIC_URL + '/assets/back-end/c++.svg'} alt=''/>
           </div>
         </Roll>
         <Roll>
           <div className='backend-skill-container'>
             <span className='backend-skill-name'>Express</span>
-            <img src='assets/back-end/express.svg' alt=''/>
+            <img src={process.env.PUBLIC_URL + '/assets/back-end/express.svg'} alt=''/>
           </div>
         </Roll>
         <Roll>
           <div className='backend-skill-container'>
             <span className='backend-skill-name'>MySQL</span>
-            <img src='assets/back-end/mysql1.svg' alt=''/>
+            <img src={process.env.PUBLIC_URL + '/assets/back-end/mysql1.svg'} alt=''/>
           </div>
         </Roll>
         <Roll>
           <div className='backend-skill-container'>
             <span className='backend-skill-name'>Mongo DB</span>
-            <img src='assets/back-end/mongodb.svg' alt=''/>
+            <img src={process.env.PUBLIC_URL + '/assets/back-end/mongodb.svg'} alt=''/>
           </div>
         </Roll>
       </div>
