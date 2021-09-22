@@ -17,7 +17,7 @@ const Home = () => {
           <p className='content-main'>I'm <span className='content-name'>Siddharth</span>.</p>
           <p className='content'>I'm an Aspiring Software Developer based in Mumbai, India.<br/> I love building <span className='content-highlighted'>websites</span> and solving <span className='content-highlighted'>algorithmic problems</span>.</p>
 
-          <a href={process.env.PUBLIC_URL + '/assets/Siddharth_Kothari_VIIt.pdf'} 
+          <a href={process.env.PUBLIC_URL + '/assets/resume.pdf'} 
           target='_blank' 
           rel="noopener noreferrer"
           className='resume'>My Resume!</a>
