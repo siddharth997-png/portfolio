@@ -12,7 +12,7 @@ const About = () => {
         <div className='about__content-container'>
           <span className='about__content-subheading'>What Do I Do?</span>
           <h1 className='about__content-heading'>Front End Development</h1>
-          <span className='about__content-desc'>I am passionate about building beautiful, interactive and functional websites. Here are some of the <span className='highlightedText'>technologies</span> I work with.</span>
+          <span className='about__content-desc'>I am passionate about building beautiful, interactive and functional websites. I'm currently <span className='highlightedText'>Hooked</span> with <span className='highlightedText'>React</span>, pun intended.</span>
         </div>
       </Fade>
       <div className='about__skills-container'>

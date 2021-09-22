@@ -13,7 +13,7 @@ const Sidebar = ({isOpen, toggleIsOpen}) => {
         activeClass="active"
         spy={true}
         smooth={true}
-        offset={-70}
+        offset={-40}
         duration={700}
       >Home</LinkR>
 
@@ -23,7 +23,7 @@ const Sidebar = ({isOpen, toggleIsOpen}) => {
         activeClass="active"
         spy={true}
         smooth={true}
-        offset={-70}
+        offset={-40}
         duration={700}
       >About</LinkR>
 
@@ -33,7 +33,7 @@ const Sidebar = ({isOpen, toggleIsOpen}) => {
         activeClass="active"
         spy={true}
         smooth={true}
-        offset={-70}
+        offset={-40}
         duration={700}
       >Projects</LinkR>
 
@@ -43,7 +43,7 @@ const Sidebar = ({isOpen, toggleIsOpen}) => {
         activeClass="active"
         spy={true}
         smooth={true}
-        offset={-70}
+        offset={-40}
         duration={700}
       >Contact</LinkR>
 

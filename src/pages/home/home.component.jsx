@@ -13,7 +13,7 @@ const Home = () => {
       </Fade>
       <Fade right>
         <div className='home__content-wrapper'>
-          <h3>Hey <span class="wave">👋</span></h3>
+          <h3>Hey <span className="wave">👋</span></h3>
           <p className='content-main'>I'm <span className='content-name'>Siddharth</span>.</p>
           <p className='content'>I'm an Aspiring Software Developer based in Mumbai, India.<br/> I love building <span className='content-highlighted'>websites</span> and solving <span className='content-highlighted'>algorithmic problems</span>.</p>
 
