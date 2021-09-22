@@ -37,16 +37,6 @@ const Sidebar = ({isOpen, toggleIsOpen}) => {
         duration={700}
       >Projects</LinkR>
 
-      <LinkR className='sidebar__item' 
-        to='contact' 
-        onClick={() => toggleIsOpen(false)}
-        activeClass="active"
-        spy={true}
-        smooth={true}
-        offset={-40}
-        duration={700}
-      >Contact</LinkR>
-
       <div className='hamburger-menu active' onClick={()=>{toggleIsOpen(!isOpen)}}>
         <span className='hamburger-line'></span>
         <span className='hamburger-line'></span>

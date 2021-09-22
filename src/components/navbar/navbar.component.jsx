@@ -44,14 +44,7 @@ const Navbar = ({isOpen, toggleIsOpen}) => {
           duration={700}
         >Projects</LinkR>
           
-        <LinkR className='navbar__item' 
-          to='contact'
-          activeClass="active"
-          spy={true}
-          smooth={true}
-          offset={-70}
-          duration={700}
-        >Contact Me</LinkR>
+        
       
       </div>
 
