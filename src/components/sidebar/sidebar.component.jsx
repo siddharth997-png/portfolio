@@ -1,3 +1,5 @@
+import { Link as LinkR } from "react-scroll";
+
 import './sidebar.styles.scss';
 
 const Sidebar = ({isOpen, toggleIsOpen}) => {
@@ -5,10 +7,46 @@ const Sidebar = ({isOpen, toggleIsOpen}) => {
     <div className={'sidebar ' + (isOpen ? 'active' : '')}
     onClick={() => toggleIsOpen(false)}
     >
-      <div className='sidebar__item' to='home' onClick={() => toggleIsOpen(false)}>Home</div>
-      <div className='sidebar__item' to='about' onClick={() => toggleIsOpen(false)}>About</div>
-      <div className='sidebar__item' to='projects' onClick={() => toggleIsOpen(false)}>Projects</div>
-      <div className='sidebar__item' to='contact' onClick={() => toggleIsOpen(false)}>Contact</div>
+      <LinkR className='sidebar__item' 
+        to='home' 
+        onClick={() => toggleIsOpen(false)}
+        activeClass="active"
+        spy={true}
+        smooth={true}
+        offset={-70}
+        duration={700}
+      >Home</LinkR>
+
+      <LinkR className='sidebar__item' 
+        to='about' 
+        onClick={() => toggleIsOpen(false)}
+        activeClass="active"
+        spy={true}
+        smooth={true}
+        offset={-70}
+        duration={700}
+      >About</LinkR>
+
+      <LinkR className='sidebar__item' 
+        to='projects' 
+        onClick={() => toggleIsOpen(false)}
+        activeClass="active"
+        spy={true}
+        smooth={true}
+        offset={-70}
+        duration={700}
+      >Projects</LinkR>
+
+      <LinkR className='sidebar__item' 
+        to='contact' 
+        onClick={() => toggleIsOpen(false)}
+        activeClass="active"
+        spy={true}
+        smooth={true}
+        offset={-70}
+        duration={700}
+      >Contact</LinkR>
+
       <div className='hamburger-menu active' onClick={()=>{toggleIsOpen(!isOpen)}}>
         <span className='hamburger-line'></span>
         <span className='hamburger-line'></span>

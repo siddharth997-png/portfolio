@@ -1,12 +1,13 @@
 import Fade from 'react-reveal/Fade';
 import Roll from 'react-reveal/Roll';
 
+import ProblemSolving from '../problem-solving/problem-solving.component';
 import './about.styles.scss';
 
 const About = () => {
   return (
-  <>
-    <div className='about' id='about'>
+  <div id='about'>
+    <div className='about'>
       <Fade left>
         <div className='about__content-container'>
           <span className='about__content-subheading'>What Do I Do?</span>
@@ -93,7 +94,8 @@ const About = () => {
         </Roll>
       </div>
     </div>
-  </>
+    <ProblemSolving/>
+  </div>
   )
 }
 

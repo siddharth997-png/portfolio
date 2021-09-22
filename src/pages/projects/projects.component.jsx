@@ -43,10 +43,10 @@ const Projects = () => {
   },[selected])
 
   return (
-    <div className='projects'>
+    <div className='projects' id='projects'>
       <h1 className='projects__heading'>My Projects</h1>
       <ProjectMenu selected={selected} setSelected={setSelected}/>
-        <div className='projects__container'>
+        <div className='projects__container' id='projects__container'>
           {
               data.map(({id,...otherProps}) => (
               

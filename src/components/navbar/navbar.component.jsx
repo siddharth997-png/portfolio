@@ -1,16 +1,58 @@
+import { Link as LinkR } from "react-scroll";
+
 import './navbar.styles.scss';
 
 const Navbar = ({isOpen, toggleIsOpen}) => {
   return (
-    <div className={'navbar ' + (isOpen ? 'active' : '')}>
-      <div className='navbar__logo unselectable' to='/'>
+    <div className={'navbar ' + (isOpen ? 'active' : '')} >
+      <LinkR
+        className='navbar__logo unselectable' 
+        to='home'
+        activeClass="active"
+        spy={true}
+        smooth={true}
+        offset={-70}
+        duration={700}
+      >
         {"<Siddharth Kothari/>"}
-      </div>
+      </LinkR>
       <div className='navbar__menu'>
-        <div className='navbar__item' to='#home'>Home</div>
-        <div className='navbar__item' to='#about'>About</div>
-        <div className='navbar__item' to='projects'>Projects</div>
-        <div className='navbar__item' to='contact'>Contact Me</div>
+        <LinkR className='navbar__item' 
+          to='home'
+          activeClass="active"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={700}
+        >Home</LinkR>
+          
+        <LinkR className='navbar__item' 
+          to='about'
+          activeClass="active"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={700}
+        >About</LinkR>
+          
+        <LinkR className='navbar__item' 
+          to='projects'
+          activeClass="active"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={700}
+        >Projects</LinkR>
+          
+        <LinkR className='navbar__item' 
+          to='contact'
+          activeClass="active"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={700}
+        >Contact Me</LinkR>
+      
       </div>
 
       <div className='hamburger-menu' onClick={()=>{toggleIsOpen(!isOpen)}}>

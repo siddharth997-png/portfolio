@@ -14,10 +14,6 @@ const menuItems = [
   {
     id: "php",
     title: "PHP"
-  },
-  {
-    id: "js",
-    title: "Vanilla Js"
   }
 ];
 

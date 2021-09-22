@@ -46,6 +46,9 @@
         color: $darkBgColor;
         font-weight: 600;
       }
+      &.active{
+        border-bottom: 2px solid $lightBgColor;
+      }
     }
     @media screen and (max-width: 930px) {
       transition: all 0.2s ease;
