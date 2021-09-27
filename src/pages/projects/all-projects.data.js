@@ -9,6 +9,11 @@ export const aakarProject = {
       id:1,
       title: 'Source Code',
       src: 'https://github.com/RohanIRathi/AakarProject'
+    },
+    {
+      id:2,
+      title: 'Demo Video',
+      src: 'https://drive.google.com/file/d/1sShp50O4X9FAHMs_f4mZ-Yx85bFsmue-/view?usp=sharing'
     }
   ],
   techUsed : [
@@ -37,7 +42,7 @@ export const crwnClothing = {
     }
   ],
   techUsed : [
-    'JSX','Sass','Javascript','React','Redux','Redux Sagas','MySQL','Firebase','FLUX Pattern'
+    'JSX','Sass','Javascript','React','Redux','Redux Sagas','Firebase','FLUX Pattern'
   ],
   mainDesc: 
     `This website is a full fleged E-Commerce website. I initially started with this project to gain proficiency in React but I plan to sell it later.<br>I have used React Router Dom for navigation, Redux as a state management tool, Redux Sagas for asynchronous Redux and Firebase as a NoSQL database. It has Sign In and Sign Up including Google O Auth.It also has Add To Cart feature. I am using Stripe to handle online payments (still in test mode). All the items/catogeries are stored in firebase, I am yet to build the Content Management System for this application.`
@@ -71,7 +76,7 @@ export const msaProject = {
     'HTML','CSS','Javascript','Bootstrap','jQuery','PHP','MySQL'
   ],
   mainDesc: 
-    `This web application helps identify, catalog, calibrate and study the measurement certainty of inspection, testing, and lab equipment. <br>This application has two actors, Admin and Instructor. The admin has the ability to sign up different instructors. <br>Measurement System Analysis : The admin enters various details about a particular instrument. Then he selects 3 different Instructors. Then each instructor is supposed to measure the 10 similar instruments in 3 trials. This brings the total number of inputs to 90. All this data then undergoes various calculations and computations. A report is generated based on the result which basically says whether the instructors are fit for measurement of instruments or not. And if not, what they did wrong and what all they need to work on. These reports are stored in a database which can accessed by the admin whenever they want.<br>Since this application is hosted on the company's private servers, I can't post the link for the live website. You can check out the demo video to see what the project is about.`
+    `This web application helps identify, catalog, calibrate and study the measurement certainty of inspection, testing, and lab equipment.<br>It basically verifies the accuracy and precision of a measurement system. <br>This application has two actors, Admin and Instructor. The admin has the ability to sign up different instructors. <br>Measurement System Analysis : The admin enters various details about a particular instrument. Then he selects 3 different Instructors. Then each instructor is supposed to measure the 10 similar instruments in 3 trials. This brings the total number of inputs to 90. All this data then undergoes various calculations and computations. A report is generated based on the result which basically says whether the instructors are fit for measurement of instruments or not. And if not, what they did wrong and what all they need to work on. These reports are stored in a database which can accessed by the admin whenever they want.<br>Since this application is hosted on the company's private servers, I can't post the link for the live website. You can check out the demo video to see what the project is about.`
 };
 
 export const chapApp = {
@@ -97,4 +102,24 @@ export const chapApp = {
   ],
   mainDesc: 
     `I built this application to gain experience in Web Sockets Protocol. I had earlier worked with HTTP protocol which is the default protocol the web works upon.<br> The problem with HTTP protocol is that there's no bi-direction communication. What I mean by that is, a server can't send a response to a client until and unless the client sends a request first. So using HTTP, the client would have to periodically send a request to the server which is very inefficient and also not real time.<br> Web Sockets solves this problem as the server can directly interact with the client. To implement WebSockets I have used sockets.io library. I have used Mustache.js as the templating engine and Express.js as the web application framework.<br>The users have the ability to enter a unique username and join rooms. They can send text messages and send their location which will be broadcased to everyone in the present room.`
+}
+
+export const ticTacToe = {
+  id: 1,
+  imgSrc: '/assets/gaming.svg',
+  projectTitle: 'Tic Tac Toe(Single Player)',
+  employer: 'Personal',
+  desc: 'This is a single player Tic Tac Toe game where it is impossible to defeat the computer. The game is based on Minimax Algorithm from game Theory. ',
+  links: [
+    {
+      id:1,
+      title: 'Live Website',
+      src: '/projects/tic-tac-toe-sp/',
+      publicAsset: true
+    }
+  ],
+  techUsed: [
+    'HTML','CSS','JavaScript','Minimax Algorithm'
+  ],
+  mainDesc: `This is a single player Tic Tac Toe game where it is impossible to defeat the computer. The game is based on Minimax Algorithm from game Theory.<br> It assumes that the opponent will play optimally. At every turn it computes all possible moves and chooses the best possible move. `
 }

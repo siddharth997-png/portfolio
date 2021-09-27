@@ -19,14 +19,18 @@ const Social = () => {
           <img src={process.env.PUBLIC_URL + '/assets/social/github.svg'} alt=''/>
         </a>
       </Roll>
-      <Roll right>
-        <a href='https://instagram.com/siddharth_997' target='_blank' rel="noopener noreferrer">  
-          <img src={process.env.PUBLIC_URL + '/assets/social/instagram.svg'} alt=''/>
-        </a>
-      </Roll>
+      
 
     </div>
   )
 }
+
+/*
+<Roll right>
+        <a href='https://instagram.com/siddharth_997' target='_blank' rel="noopener noreferrer">  
+          <img src={process.env.PUBLIC_URL + '/assets/social/instagram.svg'} alt=''/>
+        </a>
+      </Roll>
+*/
 
 export default Social

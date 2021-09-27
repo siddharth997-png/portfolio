@@ -2,7 +2,8 @@ import {
   aakarProject, 
   crwnClothing,
   msaProject,
-  chapApp
+  chapApp,
+  ticTacToe
 } from "./all-projects.data";
 
 export const allProjectsData = [
@@ -23,4 +24,8 @@ export const nodeProjects = [
 export const phpProjects = [
   aakarProject,
   msaProject
+]
+
+export const jsProjects = [
+  ticTacToe
 ]

@@ -10,7 +10,9 @@ import {
   allProjectsData,
   nodeProjects,
   reactProjects,
-  phpProjects } from './project-data';
+  phpProjects,
+  jsProjects 
+} from './project-data';
 
 const Projects = () => {
 
@@ -38,7 +40,10 @@ const Projects = () => {
         setData(phpProjects);
         break;
       }
-
+      case 'js' : {
+        setData(jsProjects);
+        break;
+      }
       default: {
         setData([]);
       }
