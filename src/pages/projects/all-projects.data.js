@@ -7,20 +7,25 @@ export const aakarProject = {
   links: [
     {
       id:1,
-      title: 'Source Code',
+      title: 'Github Repo',
       src: 'https://github.com/RohanIRathi/AakarProject'
     },
     {
       id:2,
       title: 'Demo Video',
       src: 'https://drive.google.com/file/d/1sShp50O4X9FAHMs_f4mZ-Yx85bFsmue-/view?usp=sharing'
+    },
+    {
+      id:3,
+      title: 'Live',
+      src: 'http://aakarfoundry.com/egatepass'
     }
   ],
   techUsed : [
     'HTML','CSS','Javascript','Bootstrap','jQuery','PHP','MySQL'
   ],
   mainDesc: 
-    `This web application brings entire visitor appointment booking, authentication and employee leave pass generation for over 400 employees online.<br>It has four main actors : Admin, HOD, Employee and Security. They follow a hierarchical order, Admin being the top Level user, then HOD, Employee and Security. Admin has the ability to sign up new HOD's, employees and security/receptionists. There's a one to many relationship between HOD and Employee, every employee is assigned to an HOD and multiple Employees can be assigned to a single Employee.<br> Visitor Booking : The first three users, namely Admin, HOD, Employee have the ability to book visitor appointments and whenever an appointment is booked, a mail is sent to the visitor containing the Time, Visitee Name and a secret OTP, which the visitor has to show the security guard  on arrival without which the visitor won't be granted entry. There's also an option for walk in visitor where the visitor meets the receptionist and fills his/her details. The visitor also selects the Employee he/she wants to meet and a notification is sent to that employee and that employee has an option to either accept or reject that request. The acknowledgement is sent back to the receptionist based on which the receptionist either lets the visitor in or doesn't.<br>Employee Leave Pass : Every employee can request for a leave pass entering the time and the reason, which is sent to the HOD assigned. The HOD can either accept or reject that request and the acknowledgement is sent back to the employee.<br>All this information is saved in a database which can be viewed later by Admin and can also generate CSV files for information within a particular time range.`
+    `This web application is currently being used by 400+ employees. It brings entire visitor appointment booking, authentication and employee leave pass generation online.<br>Since it is currently in use, I cannot provide dummy credentials for demo of the website which is covered with an authentication page.<br>It has four main actors : Admin, HOD, Employee and Security. They follow a hierarchical order, Admin being the top Level user, then HOD, Employee and Security. Admin has the ability to sign up new HOD's, employees and security/receptionists. There's a one to many relationship between HOD and Employee, every employee is assigned to an HOD and multiple Employees can be assigned to a single Employee.<br> Visitor Booking : The first three users, namely Admin, HOD, Employee have the ability to book visitor appointments and whenever an appointment is booked, a mail is sent to the visitor containing the Time, Visitee Name and a secret OTP, which the visitor has to show the security guard  on arrival without which the visitor won't be granted entry. There's also an option for walk in visitor where the visitor meets the receptionist and fills his/her details. The visitor also selects the Employee he/she wants to meet and a notification is sent to that employee and that employee has an option to either accept or reject that request. The acknowledgement is sent back to the receptionist based on which the receptionist either lets the visitor in or doesn't.<br>Employee Leave Pass : Every employee can request for a leave pass entering the time and the reason, which is sent to the HOD assigned. The HOD can either accept or reject that request and the acknowledgement is sent back to the employee.<br>All this information is saved in a database which can be viewed later by Admin and can also generate CSV files for information within a particular time range.`
 };
 
 export const crwnClothing = {
@@ -32,7 +37,7 @@ export const crwnClothing = {
   links: [
     {
       id:1,
-      title: 'Source Code',
+      title: 'Github Repo',
       src: 'https://github.com/siddharth997-png/crwn-clothing'
     },
     {
@@ -57,19 +62,19 @@ export const msaProject = {
   links: [
     {
       id:1,
-      title: 'Source Code',
+      title: 'Github Repo',
       src: 'https://github.com/siddharth997-png/MSA-fluid'
-    },
-    {
-      id:2,
-      title: 'Internship Letter',
-      src: '/assets/MSA_Internship_Letter.pdf',
-      publicAsset: true
     },
     {
       id: 2,
       title: 'Demo Video',
       src: 'https://drive.google.com/file/d/1KSIlb3D7NEOSTZeg5xKjf5ivbP0FHac1/view?usp=sharing'
+    },
+    {
+      id:3,
+      title: 'Internship Letter',
+      src: '/assets/MSA_Internship_Letter.pdf',
+      publicAsset: true
     }
   ],
   techUsed : [
@@ -88,7 +93,7 @@ export const chapApp = {
   links: [
     {
       id:1,
-      title: 'Source Code',
+      title: 'Github Repo',
       src: 'https://github.com/siddharth997-png/chat-app'
     },
     {
@@ -107,7 +112,7 @@ export const chapApp = {
 export const ticTacToe = {
   id: 1,
   imgSrc: '/assets/gaming.svg',
-  projectTitle: 'Tic Tac Toe(Single Player)',
+  projectTitle: 'Single Player Tic Tac Toe',
   employer: 'Personal',
   desc: 'This is a single player Tic Tac Toe game where it is impossible to defeat the computer. The game is based on Minimax Algorithm from game Theory. ',
   links: [
@@ -116,6 +121,11 @@ export const ticTacToe = {
       title: 'Live Website',
       src: '/projects/tic-tac-toe-sp/',
       publicAsset: true
+    },
+    {
+      id:2,
+      title: 'Github Repo',
+      src: 'https://github.com/siddharth997-png/SinglePlayerTicTacTow'
     }
   ],
   techUsed: [

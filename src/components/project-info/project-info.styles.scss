@@ -57,7 +57,7 @@
           .tech{
             font-family: $highlighted;
             color: $lightBgColor;
-            margin: 2px 3px;
+            margin: 3px;
             border: 1px solid $lightBgColor;
             padding: 3px 10px;
           }
@@ -161,7 +161,7 @@
         flex-wrap: wrap;
         margin: 2px 4px;
         @media screen and (max-width: 600px) {
-          font-size: $font-size-sm;
+          font-size: 15px;
         }
         
         a{
@@ -172,7 +172,7 @@
           border: 1px solid $lightBgColor;
           transition: all 0.2s ease;
           @media screen and (max-width: 600px) {
-            margin: 0 3px;
+            margin: 3px;
           }
 
           &:hover{

@@ -1,7 +1,7 @@
 const menuItems = [
   {
     id: "all",
-    title: "All Projects"
+    title: "Best Projects"
   },
   {
     id: "react",
@@ -15,10 +15,10 @@ const menuItems = [
     id: "php",
     title: "PHP"
    }
-  //,{
-  //   id: "js",
-  //   title: "Vanilla Js"
-  // }
+  ,{
+    id: "js",
+    title: "Vanilla JS"
+  }
 ];
 
 export default menuItems;
