@@ -2,13 +2,14 @@ import './project-card.styles.scss';
 
 const ProjectCard = ({item,toggleViewProject,setProject}) => {
 
-  const {imgSrc, projectTitle, employer, desc} = item;
+  const {imgSrc, projectTitle, employer, desc,id} = item;
   const handleClick = () => {
     setProject(item);
     toggleViewProject(true);
   }
   return (
-    <div className='project-card__container'>
+    <div className='project-card__container' >
+      <span className='offset' id={id}/>
       <div className='project-card__img-container'>
         <img src={process.env.PUBLIC_URL + imgSrc} alt=''/>
       </div>

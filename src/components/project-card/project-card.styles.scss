@@ -12,6 +12,10 @@
   box-shadow: 0 0 15px -5px $lightBgColor;
   //transition: all 0.5s ease;
   cursor: default;
+  position: relative;
+  .offset{
+    position:absolute; top:-75px;
+  }
 
   @media screen and (max-width: 400px) {
     height: auto;

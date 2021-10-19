@@ -7,18 +7,24 @@ export const aakarProject = {
   links: [
     {
       id:1,
-      title: 'Github Repo',
+      title: 'Github',
       src: 'https://github.com/RohanIRathi/AakarProject'
     },
     {
       id:2,
+      title: 'Live',
+      src: 'http://aakarfoundry.com/egatepass'
+    },
+    {
+      id:3,
       title: 'Demo Video',
       src: 'https://drive.google.com/file/d/1sShp50O4X9FAHMs_f4mZ-Yx85bFsmue-/view?usp=sharing'
     },
     {
-      id:3,
-      title: 'Live',
-      src: 'http://aakarfoundry.com/egatepass'
+      id:4,
+      title: 'Internship Letter',
+      src: '/assets/Aakar_Intership_Letter.pdf',
+      publicAsset: true
     }
   ],
   techUsed : [
@@ -37,7 +43,7 @@ export const crwnClothing = {
   links: [
     {
       id:1,
-      title: 'Github Repo',
+      title: 'Github',
       src: 'https://github.com/siddharth997-png/crwn-clothing'
     },
     {
@@ -62,7 +68,7 @@ export const msaProject = {
   links: [
     {
       id:1,
-      title: 'Github Repo',
+      title: 'Github',
       src: 'https://github.com/siddharth997-png/MSA-fluid'
     },
     {
@@ -85,7 +91,7 @@ export const msaProject = {
 };
 
 export const chapApp = {
-  id: 1,
+  id: 4,
   imgSrc: '/assets/chat.svg',
   projectTitle: 'Real Time Chat Application',
   employer: 'Personal',
@@ -93,7 +99,7 @@ export const chapApp = {
   links: [
     {
       id:1,
-      title: 'Github Repo',
+      title: 'Github',
       src: 'https://github.com/siddharth997-png/chat-app'
     },
     {
@@ -110,7 +116,7 @@ export const chapApp = {
 }
 
 export const ticTacToe = {
-  id: 1,
+  id: 5,
   imgSrc: '/assets/gaming.svg',
   projectTitle: 'Single Player Tic Tac Toe',
   employer: 'Personal',
@@ -124,7 +130,7 @@ export const ticTacToe = {
     },
     {
       id:2,
-      title: 'Github Repo',
+      title: 'Github',
       src: 'https://github.com/siddharth997-png/SinglePlayerTicTacTow'
     }
   ],

@@ -159,6 +159,7 @@
         font-size: $font-size-md-sm;
         display: flex;
         flex-wrap: wrap;
+        //justify-content: space-between;
         margin: 2px 4px;
         @media screen and (max-width: 600px) {
           font-size: 15px;
@@ -166,7 +167,7 @@
         
         a{
           padding: 3px 10px;
-          margin: 0 15px;
+          margin: 2px 7px;
           text-decoration: none;
           color: $lightBgColor;
           border: 1px solid $lightBgColor;
