@@ -137,5 +137,5 @@ export const ticTacToe = {
   techUsed: [
     'HTML','CSS','JavaScript','Minimax Algorithm'
   ],
-  mainDesc: `This is a single player Tic Tac Toe game where it is impossible to defeat the computer. The game is based on Minimax Algorithm from game Theory.<br> It assumes that the opponent will play optimally. At every turn it computes all possible moves and chooses the best possible move. `
+  mainDesc: `This is a single player Tic Tac Toe game where it is impossible to defeat the computer. The game is based on Minimax Algorithm from game Theory.<br> Minimax is a kind of backtracking algorithm that is used in decision making and game theory to find the optimal move for a player, assuming that your opponent also plays optimally.<br>The key to the Minimax algorithm is a back and forth between the two players, where the player whose "turn it is" desires to pick the move with the maximum score. In turn, the scores for each of the available moves are determined by the opposing player deciding which of its available moves has the minimum score. And the scores for the opposing players moves are again determined by the turn-taking player trying to maximize its score and so on all the way down the move tree to an end state. `
 }
