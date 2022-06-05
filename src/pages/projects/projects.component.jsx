@@ -53,25 +53,25 @@ const Projects = () => {
     <div className='projects' id='projects'>
       <h1 className='projects__heading'>My Projects</h1>
       <ProjectMenu selected={selected} setSelected={setSelected}/>
-          <div className='projects__container' id='projects__container'>
-            {
-                data.map((item,index) => (
-                  <ProjectCard key={index} 
-                    item={item} 
-                    toggleViewProject={toggleViewProject}
-                    setProject={setProject}
-                  />
-              ))
-            }
-          </div>
+      <div className='projects__container' id='projects__container'>
         {
-          (viewProject ? 
-              <ProjectInfo 
+            data.map((item,index) => (
+              <ProjectCard key={index} 
+                item={item} 
                 toggleViewProject={toggleViewProject}
-                project={project}
-              /> 
-            : null)
+                setProject={setProject}
+              />
+          ))
         }
+      </div>
+      {
+        (viewProject ? 
+            <ProjectInfo 
+              toggleViewProject={toggleViewProject}
+              project={project}
+            /> 
+          : null)
+      }
         
     </div>
   )
